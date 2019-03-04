@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+	"subcrate"	
+]
+
+[package]
+name = "macros_workspace_test"
+version = "0.1.0"
+authors = ["= <dylan.dpc@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+subcrate = { path = "./subcrate" }
